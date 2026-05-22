@@ -6,7 +6,7 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&color=6366F1&center=true&vCenter=true&width=720&lines=Shipping+LLM+tooling+%C2%B7+on-device+ML+%C2%B7+quant+research;10%2B+products+shipped+since+January+2026;1+PyPI+package+%C2%B7+2+MCP+servers+%C2%B7+2+live+production+sites;Switzerland+%C2%B7+remote+contractor+%C2%B7+available+now" alt="rotating tagline" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1400&color=6366F1&center=true&vCenter=true&width=900&height=36&lines=Shipping+LLM+tooling+%C2%B7+on-device+ML+%C2%B7+quant+research;10%2B+products+shipped+since+January+2026;1+PyPI+package+%C2%B7+2+MCP+servers+%C2%B7+2+sites+in+production;Switzerland-based+remote+contractor+%C2%B7+available+now" alt="rotating tagline" />
 
 <br><br>
 
@@ -77,6 +77,39 @@ These tools are **not portfolio decorations**. Each one is in daily production u
 | 🟢 **[debug-client-](https://github.com/sky1241/debug-client-)** | Security audit framework — 23 SAST tools sandboxed under firejail. I ran it end-to-end against my own `-cole-de-danse` repo before delivering to the client. 14/15 mutation tests confirmed. |
 
 **The signal**: I don't ship libraries I wouldn't run on my own production code. Every public repo on this profile passed through this loop.
+
+### How the tools cross-reference each other
+
+```mermaid
+flowchart LR
+    BU[bible-ux<br/>design system] -->|tokens| WIT[where-is-typewise<br/>dashboard]
+    BU -->|tokens| IW[infernal-wheel<br/>dashboard]
+    BU -->|tokens| CV[CV PDF + this README]
+    BU -->|tokens| DA[-cole-de-danse<br/>live site]
+
+    FS[forge-shield<br/>regression CI] -->|tests| MN[MUNINN]
+    FS -->|tests| HS[HSBC-algo-genetic]
+    FS -->|tests| IW
+    FS -->|--modularity| MN
+
+    MN[MUNINN<br/>memory + MCP] -->|persists| CC[Claude Code sessions]
+    CC -->|3 PCs| MFL[multi-PC fleet]
+
+    TR[tree<br/>diagnosis] -->|first scan| NR[every new repo]
+    DC[debug-client-<br/>security audit] -->|pre-delivery audit| DA
+    YE[yggdrasil-engine<br/>spectral retrieval] -->|paper search| MN
+
+    style BU fill:#312e81,stroke:#6366f1,color:#fff
+    style FS fill:#14532d,stroke:#22c55e,color:#fff
+    style MN fill:#312e81,stroke:#6366f1,color:#fff
+    style YE fill:#312e81,stroke:#6366f1,color:#fff
+    style TR fill:#312e81,stroke:#6366f1,color:#fff
+    style DC fill:#312e81,stroke:#6366f1,color:#fff
+    style CC fill:#1e1b4b,stroke:#818cf8,color:#fff
+    style MFL fill:#1e1b4b,stroke:#818cf8,color:#fff
+```
+
+Read as: my own libraries call my own libraries. The downstream effect is that **any improvement to bible-ux propagates to 4 deliveries simultaneously**, any new forge sub-command lints 3 other repos on next push, and any MUNINN compression gain shortens every future Claude Code session across 3 PCs.
 
 <br>
 
@@ -211,6 +244,10 @@ These tools are **not portfolio decorations**. Each one is in daily production u
 ### 📬 Reach out
 
 **[ludovik1241@gmail.com](mailto:ludovik1241@gmail.com)** &nbsp;·&nbsp; **[haoyanwuying.com](https://haoyanwuying.com)** (a recent delivery) &nbsp;·&nbsp; **[pypi.org/project/forge-shield](https://pypi.org/project/forge-shield/)**
+
+<br>
+
+<sub><i>Rendered with <b><a href="https://github.com/sky1241/bible-ux">bible-ux</a></b> v1.9 — §38 Tailwind typography scale · §42 outline iconography · §49 Linear density (max 4 contrast levels, 4 px grid implicit) · §50 Vercel Geist label-vs-copy line-heights · §52 Stripe on-color pairs (every badge has <code>labelColor</code>) · §60 Premium Feel anti-patterns avoided (no gimmick, animation = cause visible) · §61 Premium Feel checklist (3-token color ramp, semantic accent indigo, on-color accessible pairs). The proof that bible-ux is operational is the document you just finished reading.</i></sub>
 
 <br>
 
