@@ -104,8 +104,8 @@ Legend: 🟢 live in production · 🟣 source-only
 </thead>
 <tbody>
 <tr>
-<td>🟢&nbsp;<b><a href="https://github.com/sky1241/forge">forge-shield</a></b> · <a href="https://pypi.org/project/forge-shield/">PyPI</a></td>
-<td>Pytest regression shield · 14 pre-registered scientific cycles · 287 tests across 9 OS/Python combos · 100% mutation kill vs <code>mutmut</code> 33%</td>
+<td>🟢&nbsp;<b><a href="https://github.com/sky1241/forge">forge-shield</a></b> · <a href="https://pypi.org/project/forge-shield/">PyPI</a> · <a href="https://github.com/sky1241/forge-case-studies">case-studies</a></td>
+<td>Pytest regression shield · 14 pre-registered cycles · 287 tests across 9 OS/Python combos · 100% mutation kill vs <code>mutmut</code> 33% on httpie/argparser · sister repo <code>forge-case-studies</code> publishes 11 FINAL_REPORTs with Fisher + Wilson CI + admitted negative (cycle 12 v3 = 0/3 OUI)</td>
 <td>Python · stdlib-only · <code>mypy --strict</code></td>
 </tr>
 <tr>
