@@ -3,13 +3,18 @@
   <img src="./assets/hero-light.svg" alt="Ludovic Perrin — AI Engineer · Switzerland" width="100%">
 </picture>
 
+<div align="center">
+
 > I write code by orchestrating LLMs across 3 PCs talking to each other.
 > The toolchain to do that turned out to be half my repos.
 
-[![Available](https://img.shields.io/badge/Available-Remote%20Contractor-22c55e?style=flat-square&labelColor=14532d)](mailto:ludovik1241@gmail.com)
+[![Available — Remote Contractor](https://img.shields.io/badge/●%20Available-Remote%20Contractor-22c55e?style=for-the-badge&labelColor=14532d)](mailto:ludovik1241@gmail.com)
+
 [![Email](https://img.shields.io/badge/Email-ludovik1241%40gmail.com-4f46e5?style=flat-square&logo=gmail&logoColor=white&labelColor=312e81)](mailto:ludovik1241@gmail.com)
 [![PyPI](https://img.shields.io/badge/PyPI-forge--shield-818cf8?style=flat-square&logo=pypi&logoColor=white&labelColor=312e81)](https://pypi.org/project/forge-shield/)
 [![Live](https://img.shields.io/badge/Live-haoyanwuying.com-6366f1?style=flat-square&logo=googlechrome&logoColor=white&labelColor=312e81)](https://haoyanwuying.com)
+
+</div>
 
 ---
 
@@ -193,7 +198,8 @@ Legend: 🟢 live in production · 🟣 source-only
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=sky1241&theme=react-dark&hide_border=true&area=true&radius=8&hide_title=true" alt="commits last year" width="100%" />
 
-<sub>Public-API contributions calendar. The widget's max ≈ 100 — that's my real peak (98 on 2026-05-11), not a cap. GitHub's native profile shows ~3,300 contributions including private-org work the public API doesn't expose.</sub>
+<sub><b>Widget max ≈ 100 = my real peak</b> (98 on 2026-05-11), not a cap.</sub><br>
+<sub>GitHub's native profile shows <code>~3,300</code> contributions — the public API doesn't expose private-org commits.</sub>
 
 ---
 
