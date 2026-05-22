@@ -115,7 +115,7 @@ Legend: 🟢 live in production · 🟣 source-only
 </tr>
 <tr>
 <td>🟣&nbsp;<b><a href="https://github.com/sky1241/MUNINN-">MUNINN</a></b></td>
-<td>Persistent memory engine for LLMs · x4.4 compression · 92% fact retention · 10 MCP tools · 3,070 tests</td>
+<td>Persistent memory engine for LLMs · 120K+ LOC · x4.4 compression · 92% fact retention (37/40) · 10 MCP tools · 2,849 CI tests</td>
 <td>Python 3.13 · MCP · SQLite · tiktoken</td>
 </tr>
 <tr>
@@ -125,7 +125,7 @@ Legend: 🟢 live in production · 🟣 source-only
 </tr>
 <tr>
 <td>🟣&nbsp;<b><a href="https://github.com/sky1241/bible-ux">bible-ux</a></b></td>
-<td>47K-line cross-platform UX rules · 1,847 patterns · 20 AI prompt templates · 8 design-token export formats · 180 links / 0 broken</td>
+<td>47,021-line cross-platform UX rules · 1,895 H3 patterns · 331 sections · 20 AI prompt templates · 8 design-token export formats · 180 links / 0 broken · 113 Baymard citations</td>
 <td>Design tokens · WCAG 2.2 · AI prompts</td>
 </tr>
 <tr>
