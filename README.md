@@ -121,52 +121,52 @@ Read as: my own libraries call my own libraries. The downstream effect is that *
 </thead>
 <tbody>
 <tr>
-<td>🟢 <b><a href="https://github.com/sky1241/forge">forge-shield</a></b> · <a href="https://pypi.org/project/forge-shield/">PyPI</a></td>
+<td>🟢&nbsp;<b><a href="https://github.com/sky1241/forge">forge-shield</a></b> · <a href="https://pypi.org/project/forge-shield/">PyPI</a></td>
 <td>Pytest regression shield · 14 pre-registered scientific cycles · 287 tests across 9 OS/Python combos · 100 % mutation kill vs mutmut 33 %</td>
 <td>Python · stdlib-only · <code>mypy --strict</code></td>
 </tr>
 <tr>
-<td>🟢 <b><a href="https://github.com/sky1241/where-is-typewise">where-is-typewise</a></b> · <a href="https://where-is-typewise-knsgq4frwunfgefuxp4w3a.streamlit.app">demo</a></td>
+<td>🟢&nbsp;<b><a href="https://github.com/sky1241/where-is-typewise">where-is-typewise</a></b> · <a href="https://where-is-typewise-knsgq4frwunfgefuxp4w3a.streamlit.app">demo</a></td>
 <td>Growth-ops radar + MCP server (7 tools) · Claude Haiku scorer with prompt caching · 167 tests · built in 3 h, 30 commits</td>
 <td>Python · Anthropic SDK · Streamlit</td>
 </tr>
 <tr>
-<td>🟣 <b><a href="https://github.com/sky1241/MUNINN-">MUNINN</a></b></td>
+<td>🟣&nbsp;<b><a href="https://github.com/sky1241/MUNINN-">MUNINN</a></b></td>
 <td>Persistent memory engine for LLMs · x4.4 compression · 92 % fact retention · 10 MCP tools · 3 070 tests</td>
 <td>Python 3.13 · MCP · SQLite · tiktoken</td>
 </tr>
 <tr>
-<td>🟣 <b><a href="https://github.com/sky1241/HSBC-algo-genetic">HSBC-algo-genetic</a></b></td>
+<td>🟣&nbsp;<b><a href="https://github.com/sky1241/HSBC-algo-genetic">HSBC-algo-genetic</a></b></td>
 <td>Quant trading research on 14 yr BTC · HMM + GARCH + walk-forward · honest negatives published (DSR, Hansen SPA, anti-lookahead audit)</td>
 <td>Python · SciPy · HMM · GARCH</td>
 </tr>
 <tr>
-<td>🟣 <b><a href="https://github.com/sky1241/bible-ux">bible-ux</a></b></td>
+<td>🟣&nbsp;<b><a href="https://github.com/sky1241/bible-ux">bible-ux</a></b></td>
 <td>45 459-line cross-platform UX rules · 1 847 patterns · 20 AI prompt templates · 8 design-token export formats · 180 links / 0 broken</td>
 <td>Design tokens · WCAG 2.2 · AI prompts</td>
 </tr>
 <tr>
-<td>🟣 <b><a href="https://github.com/sky1241/infernal-wheel">infernal-wheel</a></b></td>
+<td>🟣&nbsp;<b><a href="https://github.com/sky1241/infernal-wheel">infernal-wheel</a></b></td>
 <td>On-device cigarette detection on Samsung smartwatch · TFLite int8 35 KB · 100 % local · 340 tests</td>
 <td>Flutter · Kotlin / Compose · TFLite</td>
 </tr>
 <tr>
-<td>🟣 <b><a href="https://github.com/sky1241/yggdrasil-engine">yggdrasil-engine</a></b></td>
+<td>🟣&nbsp;<b><a href="https://github.com/sky1241/yggdrasil-engine">yggdrasil-engine</a></b></td>
 <td>Spectral engine for scientific cartography · 65 K concepts × 108 M pairs · Cohen's d = 5.76 with documented bias corrections</td>
 <td>Python · SciPy eigsh · graph Laplacians</td>
 </tr>
 <tr>
-<td>🟣 <b><a href="https://github.com/sky1241/debug-client-">debug-client-</a></b></td>
+<td>🟣&nbsp;<b><a href="https://github.com/sky1241/debug-client-">debug-client-</a></b></td>
 <td>Security audit framework · 23 SAST tools orchestrated · firejail sandbox · 14/15 mutation tests confirmed</td>
 <td>Bash · Python · firejail · SAST</td>
 </tr>
 <tr>
-<td>🟢 <b><a href="https://github.com/sky1241/-cole-de-danse">-cole-de-danse</a></b> · <a href="https://haoyanwuying.com">live</a></td>
+<td>🟢&nbsp;<b><a href="https://github.com/sky1241/-cole-de-danse">-cole-de-danse</a></b> · <a href="https://haoyanwuying.com">live</a></td>
 <td>Dance-school vitrine site in China · mobile-first · WeChat + Baidu Maps integration · zero backend</td>
 <td>HTML/CSS/JS · GitHub Pages · schema.org</td>
 </tr>
 <tr>
-<td>🟣 <b><a href="https://github.com/sky1241/shazam-piano">shazam-piano</a></b></td>
+<td>🟣&nbsp;<b><a href="https://github.com/sky1241/shazam-piano">shazam-piano</a></b></td>
 <td>Shazam-style piano learning · record 8 s → 4 progressive videos · audio DSP from papers (MPM, Goertzel, YIN, Krumhansl-Schmuckler)</td>
 <td>Flutter · FastAPI · BasicPitch · FFmpeg</td>
 </tr>
