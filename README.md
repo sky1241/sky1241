@@ -1,10 +1,14 @@
 <div align="center">
 
-# Ludovic Perrin
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&color=6366F1&center=true&vCenter=true&width=720&lines=Self-taught+AI+Engineer+%C2%B7+Indie+Product+Builder;Shipping+LLM+tooling+%C2%B7+on-device+ML+%C2%B7+quant+research;10%2B+products+shipped+since+January+2026;Switzerland+%C2%B7+remote+contractor+%C2%B7+available+now" alt="Self-taught AI Engineer · Indie Product Builder · Switzerland" />
+<a href="https://github.com/sky1241">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Ludovic%20Perrin&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Self-taught%20AI%20Engineer%20%C2%B7%20Indie%20Product%20Builder&descAlignY=58&descSize=18" alt="header" />
+</a>
 
 <br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&color=6366F1&center=true&vCenter=true&width=720&lines=Shipping+LLM+tooling+%C2%B7+on-device+ML+%C2%B7+quant+research;10%2B+products+shipped+since+January+2026;1+PyPI+package+%C2%B7+2+MCP+servers+%C2%B7+2+live+production+sites;Switzerland+%C2%B7+remote+contractor+%C2%B7+available+now" alt="rotating tagline" />
+
+<br><br>
 
 [![Available](https://img.shields.io/badge/Available-Remote%20Contractor-22c55e?style=for-the-badge&labelColor=14532d)](mailto:ludovik1241@gmail.com)
 [![Email](https://img.shields.io/badge/Email-ludovik1241%40gmail.com-4f46e5?style=for-the-badge&logo=gmail&logoColor=white&labelColor=312e81)](mailto:ludovik1241@gmail.com)
@@ -31,21 +35,48 @@ Day-to-day: architecture, prompt caching, vector embeddings, fine-tuning pipelin
 - French native · English B2
 - **2 MCP servers** deployed · **1 PyPI** package
 - **2 sites** live in production right now
+- 5 days/week active on GitHub since Jan 2026
 
 </td>
 <td valign="top" width="50%">
 
-### 🔭 Currently shipping
+### 🔭 Currently shipping (May 2026)
 
 - **[MUNINN](https://github.com/sky1241/MUNINN-)** v1.2 — compression past x5 + sleep-consolidation pruning
 - **[forge-shield](https://github.com/sky1241/forge)** cycle 25 — repeating cycle-15 on 4× larger panel
-- **[where-is-typewise](https://github.com/sky1241/where-is-typewise)** — `data/latest` → `main` sync
+- **[where-is-typewise](https://github.com/sky1241/where-is-typewise)** — `data/latest` → `main` sync wiring
+- **[bible-ux](https://github.com/sky1241/bible-ux)** v1.9 — copyright review pass for Gumroad release
 
 </td>
 </tr>
 </table>
 
-> 🧪 **Honest science** : I publish admitted negatives (forge cycle 12 v3 `0/3 OUI`, HSBC K3 OOS Sharpe –1.91, BUG+053 self-found label-leakage). Rare in indie OSS — and the reason recruiters can trust the rest of the numbers on this profile.
+> 🧪 **Honest science** — I publish admitted negatives in plain sight: forge cycle 12 v3 verdict `0/3 OUI`, HSBC K3 OOS Sharpe –1.91, BUG+053 self-found label-leakage that invalidated prior F1 metrics. Rare in indie OSS — and the reason recruiters can trust the rest of the numbers on this profile.
+
+<br>
+
+## 🔧 How I work
+
+Multi-PC fleet (3 Debian machines, systemd-managed) running **Claude Code in parallel sessions** that talk to each other via a git-branch-based MESSAGE protocol I built. Memory is persisted across sessions through my own MCP server (MUNINN), context is compressed at x4.4 ratio with measured 92% fact retention. Code goes through my own pytest regression shield (forge-shield) before any push.
+
+The result: I ship faster than a solo dev should, with the rigor of a team that has CI gates. The cost is that I had to **build the toolchain itself** — which turned out to be the most interesting part of the work, and the source of half of these projects.
+
+<br>
+
+## 🛠️ My own toolchain — eating my own dog food
+
+These tools are **not portfolio decorations**. Each one is in daily production use by me, in my own workflow. The fact that **this very README** was designed using them is the proof.
+
+| Tool | What I use it for, every day |
+|------|-------------------------------|
+| 🟢 **[bible-ux](https://github.com/sky1241/bible-ux)** | Source of truth for **every UI / design decision** I make — including this README (HSB indigo palette, density §49, on-color pairs §52, Premium Feel checklist §60-61). My CV PDF, haoyanwuying.com, infernal-wheel dashboard: all token-exported from `VALUES.md`. |
+| 🟢 **[forge-shield](https://github.com/sky1241/forge)** | Runs on every commit across my repos — defect prediction, mutation testing, flaky detection, fault localization. Caught BUG+053 (label-leakage) before I shipped infernal-wheel. |
+| 🟢 **[MUNINN](https://github.com/sky1241/MUNINN-)** | Persistent memory across all my Claude Code sessions on 3 PCs. x4.4 compression on 230 real files, 92% fact retention. This is the reason I can switch context between MUNINN dev, HSBC live monitoring, and shazam-piano UX without losing state. |
+| 🟢 **[yggdrasil-engine](https://github.com/sky1241/yggdrasil-engine)** | When I need to navigate scientific literature — 65K OpenAlex concepts × 108M pairs, spectral retrieval. I ran 38 documented sessions through it. Published the Cohen's d = 5.76 result with bias corrections. |
+| 🟢 **[tree](https://github.com/sky1241/tree)** | Project diagnosis + planning — maps a new codebase to one of 6 biological tree architectures (conifer / deciduous / palm / baobab / shrub / liana) and tells me what to build first, what to defer. Used on every new repo since March 2026. |
+| 🟢 **[debug-client-](https://github.com/sky1241/debug-client-)** | Security audit framework — 23 SAST tools sandboxed under firejail. I ran it end-to-end against my own `-cole-de-danse` repo before delivering to the client. 14/15 mutation tests confirmed. |
+
+**The signal**: I don't ship libraries I wouldn't run on my own production code. Every public repo on this profile passed through this loop.
 
 <br>
 
@@ -113,6 +144,26 @@ Day-to-day: architecture, prompt caching, vector embeddings, fine-tuning pipelin
 
 <br>
 
+## 🏆 Recent milestones
+
+```
+2026-05-22  ─  forge-shield v2.1.2 released on PyPI · Production/Stable classifier
+2026-05-13  ─  MUNINN K.1.bis shipped · 1,336-entry cross-lingual lexicon (MIT + CC0)
+2026-05-12  ─  where-is-typewise live on Streamlit Cloud + MCP server (7 tools)
+2026-05-11  ─  forge-case-studies cycle 24 verdict: NEUTRAL (∆ + 0.0) — admitted in repo
+2026-05-04  ─  Migrated mining stack to MIT-licensed XMR pipeline (3 PCs, systemd)
+2026-04-28  ─  HSBC-algo-genetic AUDIT_FINAL_v2: 671 tests passing · READY WITH RESERVATIONS
+2026-04-26  ─  RAPPORT_ALPHA_FINAL: K3 alone Sharpe –1.91 published · honest negative
+2026-04-17  ─  bible-ux meta-audit: 180 links / 0 broken · 0 contradictions VALUES ↔ bibles
+2026-04-14  ─  BUG+053 self-found: label-leakage in infernal-wheel training set · fixed + reported
+2026-04-10  ─  infernal-wheel: 2 real-world cigarette detections on Galaxy Watch 7
+2026-03-02  ─  yggdrasil blind spectral test: Cohen's d = 5.76 (p = 7e-11)
+2025-12-19  ─  haoyanwuying.com deployed (custom CNAME, mobile-first, China market)
+2026-01-XX  ─  Started writing code seriously · self-taught from zero
+```
+
+<br>
+
 ## Tech Stack
 
 <div align="center">
@@ -130,7 +181,7 @@ Day-to-day: architecture, prompt caching, vector embeddings, fine-tuning pipelin
 
 <br>
 
-## Stats
+## 📊 Stats
 
 <div align="center">
 
@@ -147,12 +198,22 @@ Day-to-day: architecture, prompt caching, vector embeddings, fine-tuning pipelin
 
 <br>
 
----
+## 🤝 Open to
+
+- **Freelance contracts** (Malt / Codeur / direct) — Python · Flutter · AI tooling · sysadmin Linux
+- **YC startup roles** (Work at a Startup) — AI Engineer / Growth Engineer / Indie founder
+- **Audit & consulting** — security audit (debug-client-), quant infra (HSBC), LLM memory (MUNINN)
 
 <div align="center">
 
-### Open to freelance · contractor · YC startup roles
+<br>
 
-📬 **[ludovik1241@gmail.com](mailto:ludovik1241@gmail.com)** &nbsp;·&nbsp; 🌐 **[haoyanwuying.com](https://haoyanwuying.com)** (a recent delivery) &nbsp;·&nbsp; 📦 **[pypi.org/project/forge-shield](https://pypi.org/project/forge-shield/)**
+### 📬 Reach out
+
+**[ludovik1241@gmail.com](mailto:ludovik1241@gmail.com)** &nbsp;·&nbsp; **[haoyanwuying.com](https://haoyanwuying.com)** (a recent delivery) &nbsp;·&nbsp; **[pypi.org/project/forge-shield](https://pypi.org/project/forge-shield/)**
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=80&section=footer" alt="footer" />
 
 </div>
