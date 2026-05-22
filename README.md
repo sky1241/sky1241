@@ -140,7 +140,7 @@ Legend: 🟢 live in production · 🟣 source-only
 </tr>
 <tr>
 <td>🟣&nbsp;<b><a href="https://github.com/sky1241/debug-client-">debug-client-</a></b></td>
-<td>Security audit framework · 23 SAST tools orchestrated · firejail sandbox · 14/15 mutation tests confirmed</td>
+<td>Security audit framework · 24 SAST tools orchestrated · firejail sandbox · 14/15 mutation tests confirmed</td>
 <td>Bash · Python · firejail · SAST</td>
 </tr>
 <tr>
@@ -150,8 +150,13 @@ Legend: 🟢 live in production · 🟣 source-only
 </tr>
 <tr>
 <td>🟣&nbsp;<b><a href="https://github.com/sky1241/shazam-piano">shazam-piano</a></b></td>
-<td>Shazam-style piano learning · record 8 s → 4 progressive videos · audio DSP from papers (MPM, Goertzel, YIN, Krumhansl-Schmuckler)</td>
+<td>Shazam-style piano learning · record 8 s → 4 progressive videos · audio DSP from papers (Goertzel, YIN/PYIN, Krumhansl-Schmuckler)</td>
 <td>Flutter · FastAPI · BasicPitch · FFmpeg</td>
+</tr>
+<tr>
+<td>🟣&nbsp;<b><a href="https://github.com/sky1241/drugsv2">drugsv2</a></b> · ancestor of MUNINN</td>
+<td>RP-immersive harness → spec → code. Birthplace of <strong>SQLite WAL mycelium</strong> (<code>mycelium_db.py</code> 993 LOC, lifted into MUNINN) &amp; <strong>Cube Engine</strong> async architecture · 11 sourced patterns (Aron, Greene, Fiske, FSRS, Shute Stealth Assessment, peak-end Alaybek)</td>
+<td>SQLite WAL · mycelium graph · FSRS-lite · DOI-verified</td>
 </tr>
 </tbody>
 </table>
