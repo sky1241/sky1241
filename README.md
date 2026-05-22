@@ -56,7 +56,7 @@ These tools are not portfolio decorations. Each one is in daily production use b
 | **[MUNINN](https://github.com/sky1241/MUNINN-)** | Persistent memory across all my Claude Code sessions on 3 PCs. `x4.4` compression on 230 real files, `92%` fact retention. Lets me switch between MUNINN dev, HSBC monitoring, and shazam-piano UX without losing state. |
 | **[yggdrasil-engine](https://github.com/sky1241/yggdrasil-engine)** | Scientific literature retrieval — 65K OpenAlex concepts × 108M pairs, spectral. 38 documented sessions. Published Cohen's `d = 5.76` with bias corrections. |
 | **[tree](https://github.com/sky1241/tree)** | Project diagnosis + planning — maps a new codebase to one of 6 biological tree architectures (conifer / deciduous / palm / baobab / shrub / liana) and tells me what to build first, what to defer. Used on every new repo since March 2026. |
-| **[debug-client-](https://github.com/sky1241/debug-client-)** | Security audit framework — 23 SAST tools sandboxed under firejail. Ran end-to-end against my own `-cole-de-danse` before delivering to client. 14/15 mutation tests confirmed. |
+| **[debug-client-](https://github.com/sky1241/debug-client-)** | Security audit framework — 24 SAST tools sandboxed under firejail. Ran end-to-end against my own `-cole-de-danse` before delivering to client. 14/15 mutation tests confirmed. |
 
 **Signal**: I don't ship libraries I wouldn't run on my own production code.
 
