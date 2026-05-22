@@ -1,8 +1,10 @@
-# Ludovic Perrin
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <img src="./assets/hero-light.svg" alt="Ludovic Perrin — AI Engineer · Switzerland" width="100%">
+</picture>
 
-**Self-taught AI Engineer · Indie product builder · Switzerland · remote**
-
-Shipping LLM tooling, on-device ML, and quantitative research since January 2026 — `1 PyPI` package, `2 MCP` servers, `2` production sites, `10+` repos shipped.
+> I write code by orchestrating LLMs across 3 PCs talking to each other.
+> The toolchain to do that turned out to be half my repos.
 
 [![Available](https://img.shields.io/badge/Available-Remote%20Contractor-22c55e?style=flat-square&labelColor=14532d)](mailto:ludovik1241@gmail.com)
 [![Email](https://img.shields.io/badge/Email-ludovik1241%40gmail.com-4f46e5?style=flat-square&logo=gmail&logoColor=white&labelColor=312e81)](mailto:ludovik1241@gmail.com)
@@ -11,37 +13,20 @@ Shipping LLM tooling, on-device ML, and quantitative research since January 2026
 
 ---
 
-## About
+## Currently (May 2026)
 
-Self-taught engineer shipping across the stack via AI-orchestrated development. Since January 2026, delivered on-device ML on Wear OS, quantitative trading research, LLM memory + RAG + MCP servers, growth-ops tooling, full-stack Flutter + FastAPI apps, security audit frameworks, and a live production website in China.
+- Building **[MUNINN](https://github.com/sky1241/MUNINN-)** v1.2 — compression past `x5`, sleep-consolidation pruning
+- Repeating **[forge-shield](https://github.com/sky1241/forge)** cycle 15 on a 4× larger panel (cycle 25)
+- Wiring `data/latest` → `main` sync on **[where-is-typewise](https://github.com/sky1241/where-is-typewise)**
+- Copyright review pass on **[bible-ux](https://github.com/sky1241/bible-ux)** v1.9 for Gumroad release
+- **Open to**: Malt / Codeur freelance · YC AI Engineer / Growth Engineer roles
 
-Day-to-day: architecture, prompt caching, vector embeddings, fine-tuning pipelines, security hardening, and the integration / debug / deployment work that turns AI output into shipped product.
+## Lately I've been thinking about
 
-<table>
-<tr>
-<td valign="top" width="50%">
-
-### Where & how
-
-- Based in **Switzerland** · remote contractor
-- French native · English B2
-- **2 MCP servers** deployed · **1 PyPI** package
-- **2 sites** live in production right now
-- Daily commits on GitHub since 2026-01-01
-
-</td>
-<td valign="top" width="50%">
-
-### Currently shipping (May 2026)
-
-- **[MUNINN](https://github.com/sky1241/MUNINN-)** v1.2 — compression past x5 + sleep-consolidation pruning
-- **[forge-shield](https://github.com/sky1241/forge)** cycle 25 — repeating cycle-15 on 4× larger panel
-- **[where-is-typewise](https://github.com/sky1241/where-is-typewise)** — `data/latest` → `main` sync wiring
-- **[bible-ux](https://github.com/sky1241/bible-ux)** v1.9 — copyright review pass for Gumroad release
-
-</td>
-</tr>
-</table>
+- Why my honest-negatives policy gets more recruiter trust than my wins
+- Whether dogfooding is a moat or a tax
+- How to ship a 47K-line UX spec without becoming a librarian
+- What a tiny startup actually needs from an AI engineer in month one
 
 > **Honest science** — I publish admitted negatives in plain sight: forge cycle 12 v3 verdict `0/3 OUI`, HSBC K3 OOS Sharpe `–1.91`, BUG+053 self-found label-leakage that invalidated prior F1 metrics. Rare in indie OSS — and the reason recruiters can trust the rest of the numbers on this profile.
 
